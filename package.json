@@ -4,13 +4,18 @@
   "description": "",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhikumar63/Node-Tutorial-YT.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^5.2.3",
-    "lodash": "^4.17.21"
-  }
+  "bugs": {
+    "url": "https://github.com/abhikumar63/Node-Tutorial-YT/issues"
+  },
+  "homepage": "https://github.com/abhikumar63/Node-Tutorial-YT#readme"
 }
