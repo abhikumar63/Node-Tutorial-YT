@@ -20,7 +20,7 @@ app.get('/', (req,res) => {
     res.send('<h1>Store API</h1><a href="/api/v1/products">product routes</a>')
 })
 
-app.use('api/v1/products', productsRouter)
+app.use('/api/v1/products', productsRouter)
 
 // products route
 app.use(notFoundMiddleware)
